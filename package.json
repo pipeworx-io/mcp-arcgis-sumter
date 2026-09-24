@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-arcgis-sumter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "City of Sumter GIS — Sumter, South Carolina open geospatial data (ArcGIS).",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-arcgis-sumter": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "arcgis-sumter"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-arcgis-sumter"
+    "url": "git+https://github.com/pipeworx-io/mcp-arcgis-sumter.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-362673b261a2f2cff12f61de8f33ef3813930f6ed2b747df46f771946a0ff3de",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }
