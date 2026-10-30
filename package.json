@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-arcgis-sumter",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "City of Sumter GIS — Sumter, South Carolina open geospatial data (ArcGIS).",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "arcgis-sumter",
     "gatewaySlug": "arcgis-sumter",
-    "sourceHash": "v1-b70fbbf1672c6edd55fa4caf90127d34488f0c7daacb89eac9fa55370c32760b",
-    "sourceCommit": "c6136b81713e72ccb22977ca0c0cd981f8c3f081"
+    "sourceHash": "v1-4db2b3969c826d91ac234f87d3d35993325d8fedebef2b0b6451204fa4ea5ed3",
+    "sourceCommit": "5cb09714e895571153f3d9663c36ff0f140cadd6"
   }
 }
